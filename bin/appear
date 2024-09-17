@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative '../lib/appear'
+
+# Run the command with arguments
+Appear.run(ARGV)
