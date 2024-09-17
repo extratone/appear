@@ -1,37 +1,15 @@
-# appear
+# appear-cli
 
-`appear` is a simple command line tool that allows you to change the macOS system appearance between light and dark modes.
+`appear` is a simple command line tool that allows you to change the macOS system appearance between light and dark modes from the command line.
+
+## Usage
+
+`appear light` 
+
+`appear dark`
+
+`appear --help`
 
 ## Installation
 
-To install the `appear` script and man page:
-
-`rake install`
-
----
-
-```man
-.TH APPEAR 1 "2024" "appear 1.0" "User Commands"
-.SH NAME
-appear \- change macOS system appearance between light and dark mode
-.SH SYNOPSIS
-.B appear
-[\fIlight|dark\fR]
-.SH DESCRIPTION
-The \fBappear\fR command changes the macOS system appearance between light and dark mode.
-
-Use the command with one of the following arguments:
-.TP
-\fBlight\fR
-Switch system appearance to light mode.
-.TP
-\fBdark\fR
-Switch system appearance to dark mode.
-
-.SH OPTIONS
-.TP
-\fB-h\fR, \fB--help\fR
-Display this help message.
-.SH AUTHOR
-David Blue
-```
+`gem install appear-cli`

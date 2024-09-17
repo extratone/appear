@@ -1,5 +1,5 @@
 Gem::Specification.new do |spec|
-  spec.name          = "appear"
+  spec.name          = "appear-cli"
   spec.version       = "1.0.0"
   spec.authors       = ["David Blue"]
   spec.email         = ["davidblue@extratone.com"]
